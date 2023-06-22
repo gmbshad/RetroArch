@@ -1,0 +1,45 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-libretro-super",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-libretro-build-msvc2017_x64_uwp",
+      "appliesTo": "libretro-build-msvc2017_x64_uwp.sh",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-libretro-buildbot-recipe",
+      "appliesTo": "libretro-buildbot-recipe.sh",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-cores-windows-msvc2017-uwp-x86_dw2-generic",
+      "appliesTo": "recipes/windows/cores-windows-msvc2017-uwp-x86_dw2-generic.conf",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-libretro-super",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-retroarch-debug-build-msvc2010-x64",
+      "appliesTo": "retroarch-debug-build-msvc2010-x64.bat",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-build-config",
+      "appliesTo": "build-config.sh",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-libretro-build-msvc2017_x86_uwp",
+      "appliesTo": "libretro-build-msvc2017_x86_uwp.sh",
+      "type": "launch"
+    }
+  ]
+}
